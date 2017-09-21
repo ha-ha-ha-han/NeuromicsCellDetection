@@ -1,0 +1,111 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2073950300" file="C:\Users\peran\Documents\GitHub\DataAnalysisPrograms\yulinARPES\Programs\@PlotSlices\PlotSlices.prj" location="C:\Users\peran\Documents\GitHub\DataAnalysisPrograms\yulinARPES\Programs\@PlotSlices" name="PlotSlices" target="target.mlapps" target-name="Package App">
+    <param.appname>PlotSlices</param.appname>
+    <param.authnamewatermark>Han Peng</param.authnamewatermark>
+    <param.email>penghan1992@gmail.com</param.email>
+    <param.company>Oxford Physics</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\peran\Documents\GitHub\DataAnalysisPrograms\yulinARPES\Programs\@PlotSlices</param.output>
+    <param.guid>5515dbd2-f1d4-4985-af4f-d74bd7bfd759</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\PlotSlices.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\ButtonDownFcn.m</file>
+      <file>${PROJECT_ROOT}\correction.m</file>
+      <file>${PROJECT_ROOT}\mdcedc.m</file>
+      <file>${PROJECT_ROOT}\plotCrossHair.m</file>
+      <file>${PROJECT_ROOT}\saveMdcEdc.m</file>
+      <file>${PROJECT_ROOT}\sqCorrection.m</file>
+      <file>C:\Users\peran\Documents\GitHub\DataAnalysisPrograms\yulinARPES\Programs\Colormap.mat</file>
+      <file>C:\Users\peran\Documents\GitHub\DataAnalysisPrograms\yulinARPES\Programs\SubFunctions\area_secant_ph.m</file>
+      <file>C:\Users\peran\Documents\GitHub\DataAnalysisPrograms\yulinARPES\Programs\SubFunctions\arraySliceIndex.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uiextras\HBox.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uiextras\VBox.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\+mixin\Container.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\Box.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\calcPixelSizes.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\ChildEvent.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\ChildObserver.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\Container.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\FigureData.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\FigureObserver.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\HBox.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\Node.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\pvchk.m</file>
+      <file>C:\Users\peran\Documents\MATLAB\Add-Ons\Toolboxes\GUI Layout Toolbox\code\layout\+uix\VBox.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\peran\Documents\GitHub\DataAnalysisPrograms\yulinARPES\Programs" name="@PlotSlices" optional="false">C:\Users\peran\Documents\GitHub\DataAnalysisPrograms\yulinARPES\Programs\@PlotSlices</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2016b</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
